@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "ES2021",
+    "noEmitOnError": true,
+    "strict": true,
+    "declaration": true,
+    "moduleResolution": "Node",
+    "typeRoots": ["./node_modules/@types", "./src/types"]
+  },
+  "files": ["src/app.ts"],
+  "include": ["src/types/**/*"]
+}
